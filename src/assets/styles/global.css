@@ -9,14 +9,14 @@
     --color-primary-darker: #6842c2;
     --color-secundary: #04d361;
     --color-secundary-dark: #04bf58;
-    --color-title-in-primary: #FFFFF;
+    --color-title-in-primary: #F5f5f5;
     --color-text-in-primary: #D4c2FF;
     --color-text-title: #32264d;
     --color-text-complement: #9c98a6;
     --color-text-base: #6a6180;
     --color-line-in-white: #e6e6f0;
     --color-input-background: #f8f8fc;
-    --color-button-text: #FFFFF;
+    --color-button-text: #f5f5f5;
     --color-box-base: #FFFFF;
     --color-box-footer: #FAFAC;
 
@@ -28,7 +28,7 @@
     box-sizing: border-box;
 }
 
-html, body #root{
+html, body, #root{
     height: 100vh;
 }
 
@@ -44,6 +44,7 @@ body{
 
 body, input, button, textarea{
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base)
 }
 
 .container{
